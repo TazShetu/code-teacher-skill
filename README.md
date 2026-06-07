@@ -161,7 +161,7 @@ code-teacher/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/code-teacher-skill.git
+git clone https://github.com/TazShetu/code-teacher-skill.git
 ```
 
 Then copy or link the repository, or at minimum its `SKILL.md`, into the global or project-level skill directory required by your AI coding tool.
@@ -183,14 +183,14 @@ For tools that use a global `.agents/skills` directory:
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.agents\skills"
 
-git clone https://github.com/YOUR_USERNAME/code-teacher-skill.git `
+git clone https://github.com/TazShetu/code-teacher-skill.git `
     "$HOME\.agents\skills\code-teacher"
 ```
 
 The skill file will be located at:
 
 ```text
-C:\Users\YOUR_USERNAME\.agents\skills\code-teacher\SKILL.md
+C:\Users\TazShetu\.agents\skills\code-teacher\SKILL.md
 ```
 
 ## Example: global installation on macOS or Linux
@@ -200,7 +200,7 @@ For tools that use a global `.agents/skills` directory:
 ```bash
 mkdir -p "$HOME/.agents/skills"
 
-git clone https://github.com/YOUR_USERNAME/code-teacher-skill.git \
+git clone https://github.com/TazShetu/code-teacher-skill.git \
     "$HOME/.agents/skills/code-teacher"
 ```
 
